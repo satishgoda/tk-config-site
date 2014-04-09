@@ -1,0 +1,29 @@
+# Copyright (c) 2013 Shotgun Software Inc.
+#
+# CONFIDENTIAL AND PROPRIETARY
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
+# Source Code License included in this distribution package. See LICENSE.
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
+# not expressly granted therein are reserved by Shotgun Software Inc.
+#
+
+description: Apps and Engines when toolkit is run from outside a project.
+
+#################################################################################################
+# define all the items that should appear in this environment
+# By default make the non-project side of the desktop engine available
+
+engines:
+  tk-desktop:
+    apps:
+    groups: []
+    collapse_rules: []
+    debug_logging: false
+    default_group: Studio
+    location: {name: tk-desktop, type: app_store, version: v0.1.0}
+
+frameworks:
+  tk-framework-shotgunutils_v0.4.0:
+    location: {name: tk-framework-shotgunutils, type: app_store, version: v0.4.0}
