@@ -12,8 +12,11 @@
 # these paths can be altered at project creation time to ensure that they map
 # to the correct location.
 
-primary:
-    description: "A location where the primary data is located."
-    mac_path:
-    linux_path:
-    windows_path:
+# The site config has no storages defined by default
+# To define one, add lines like the following
+#
+# primary:
+#     description: "A location where the primary data is located."
+#     mac_path:
+#     linux_path:
+#     windows_path:
