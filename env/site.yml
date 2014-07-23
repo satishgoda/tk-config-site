@@ -19,9 +19,10 @@ engines:
   tk-desktop:
     apps:
     groups: []
-    collapse_rules: []
-    debug_logging: false
     default_group: Studio
+    collapse_rules: []
+    hook_launch_python: default
+    debug_logging: false
     location: {name: tk-desktop, type: app_store, version: v0.1.11}
 
 frameworks:
