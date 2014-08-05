@@ -24,7 +24,7 @@ engines:
     collapse_rules: []
     hook_launch_python: default
     debug_logging: false
-    location: {name: tk-desktop, type: app_store, version: v0.1.13}
+    location: {name: tk-desktop, type: app_store, version: v0.1.16}
 
 frameworks:
   tk-framework-qtwidgets_v1.x.x:
@@ -34,4 +34,4 @@ frameworks:
   tk-framework-login_v0.x.x:
     location: {name: tk-framework-login, type: app_store, version: v0.1.4}
   tk-framework-adminui_v0.x.x:
-    location: {name: tk-framework-adminui, type: app_store, version: v0.0.2}
+    location: {name: tk-framework-adminui, type: app_store, version: v0.0.4}
