@@ -24,14 +24,14 @@ engines:
     collapse_rules: []
     hook_launch_python: default
     debug_logging: false
-    location: {name: tk-desktop, type: app_store, version: v0.1.16}
+    location: {name: tk-desktop, type: app_store, version: v1.0.0}
 
 frameworks:
   tk-framework-qtwidgets_v1.x.x:
     location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.1}
   tk-framework-shotgunutils_v2.x.x:
     location: {name: tk-framework-shotgunutils, type: app_store, version: v2.0.5}
-  tk-framework-login_v0.x.x:
-    location: {name: tk-framework-login, type: app_store, version: v0.1.4}
+  tk-framework-login_v1.x.x:
+    location: {name: tk-framework-login, type: app_store, version: v1.0.2}
   tk-framework-adminui_v0.x.x:
-    location: {name: tk-framework-adminui, type: app_store, version: v0.0.4}
+    location: {name: tk-framework-adminui, type: app_store, version: v0.0.6}
