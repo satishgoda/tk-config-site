@@ -26,6 +26,10 @@ engines:
     debug_logging: false
     location: {name: tk-desktop, type: app_store, version: v1.0.0}
 
+# note! The login framework is included for backwards compatibility with 
+# some apps that are running in desktop, so although it is not strictly
+# required anymore for the desktop system itself to run correctly,
+# we included here to ensure correct overall operation.
 frameworks:
   tk-framework-qtwidgets_v1.x.x:
     location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.1}
