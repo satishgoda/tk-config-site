@@ -1,4 +1,4 @@
 tk-config-site
 ======================
 
-A default configuration to use when outside of a project context.
+The configuration that Shotgun Desktop automatically boots into at startup.
