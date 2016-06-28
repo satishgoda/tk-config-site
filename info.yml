@@ -11,8 +11,8 @@
 # Metadata defining the behavior and requirements for this configuration
 
 # More verbose description of this item
-display_name: "Default Site Config"
-description: "An Example config to run engines and apps outside of a project."
+display_name: "Desktop Site Config"
+description: "The config Shotgun Desktop automatically boots into at startup."
 
 # Required minimum versions for this item to run
 requires_shotgun_version: "v5.2.16"
